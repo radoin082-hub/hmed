@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/name_fac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/linearLayout"
+        android:layout_marginBottom="40dp"
+        android:text="name_fac"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <LinearLayout android:id="@+id/linearLayout" android:layout_width="108dp" android:layout_height="64dp" android:layout_alignParentRight="true" android:layout_marginRight="11dp" android:orientation="horizontal">
+        <ImageView android:id="@+id/imageViewNext" android:layout_width="67dp" android:layout_height="wrap_content" app:srcCompat="@drawable/next"/>
+    </LinearLayout>
+</RelativeLayout>
